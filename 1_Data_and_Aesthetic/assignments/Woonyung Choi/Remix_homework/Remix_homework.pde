@@ -34,13 +34,14 @@ Table data;
 
 
 void setup() {
-  size(800, 1280);
+  size(800, 1400);
   //beginRecord(PDF, "Salad_Data.pdf");
   background(255, 255, 248);
   smooth();
   noStroke();
   noLoop();
  
+  beginRecord(PDF, "filename.pdf"); 
   
   // load table
   //loadData();
@@ -58,7 +59,6 @@ void setup() {
     }
   }
   
-  beginRecord(PDF, "filename.pdf"); 
   
 }
 
