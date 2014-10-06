@@ -23,7 +23,7 @@ PrintWriter writer;
 boolean tweeted = false;
 
 //This is the phrase we're looking for
-String phrase = "ukraine";
+String phrase = "selfie";
 //This is how many tweets we're collecting
 int max = 1000;
 //counter for Tweets
